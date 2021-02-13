@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuPpal">
+
+    <WebView
+        android:id="@+id/wv_Twitter"
+        android:layout_width="0dp"
+        android:layout_height="287dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Welcome" />
+
+    <TextView
+        android:id="@+id/txt_Welcome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wv_Twitter">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/btn_Planificador"
+                        android:layout_width="118dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/background_light"
+                        android:contentDescription="@string/imagebutton_Description"
+                        android:onClick="Planificador"
+                        app:srcCompat="@mipmap/ic_planificador" />
+
+                    <ImageButton
+                        android:id="@+id/btn_Perfil"
+                        android:layout_width="118dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/background_light"
+                        android:contentDescription="@string/imagebutton_Description"
+                        android:onClick="Perfil"
+                        android:src="@mipmap/ic_perfil" />
+
+                    <ImageButton
+                        android:id="@+id/btn_horario"
+                        android:layout_width="118dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/background_light"
+                        android:contentDescription="@string/imagebutton_Description"
+                        android:onClick="Horario"
+                        app:srcCompat="@mipmap/ic_horario" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_Planificador"
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_planificador"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView_Perfil"
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_perfil"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView_Horario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_horario"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/btn_calculadora"
+                        android:layout_width="118dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/background_light"
+                        android:contentDescription="@string/imagebutton_Description"
+                        android:onClick="Calculadora"
+                        app:srcCompat="@mipmap/ic_calculadora" />
+
+                    <ImageButton
+                        android:id="@+id/btn_Material"
+                        android:layout_width="118dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/background_light"
+                        android:contentDescription="@string/imagebutton_Description"
+                        android:onClick="MatEstudio"
+                        app:srcCompat="@mipmap/ic_matestudio" />
+
+                    <ImageButton
+                        android:id="@+id/btn_Sanciones"
+                        android:layout_width="118dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/background_light"
+                        android:contentDescription="@string/imagebutton_Description"
+                        android:onClick="Sanciones"
+                        app:srcCompat="@mipmap/ic_sanciones" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="50dp"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/textView_Calculadora"
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_calculadora"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView_Material"
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_material"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView_Sanciones"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_sanciones"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/btn_Profesores"
+                        android:layout_width="118dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/background_light"
+                        android:contentDescription="@string/imagebutton_Description"
+                        android:onClick="Profesores"
+                        app:srcCompat="@mipmap/ic_profesores" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_Profesores"
+                        android:layout_width="118dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_profesores"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton_LogOut"
+        android:layout_width="42dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/background_light"
+        android:contentDescription="@string/imagebutton_Description"
+        android:onClick="logOut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_logout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

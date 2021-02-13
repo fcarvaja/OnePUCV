@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mechonapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.mechonapp.VerEventos" />
+        <activity android:name="com.example.mechonapp.AgregarEvento" />
+        <activity android:name="com.example.mechonapp.TribunalMerito" />
+        <activity android:name="com.example.mechonapp.Articulo33" />
+        <activity android:name="com.example.mechonapp.Planificador" />
+        <activity android:name="com.example.mechonapp.HorarioAgregarAsignatura" />
+        <activity android:name="com.example.mechonapp.Horario" />
+        <activity android:name="com.example.mechonapp.Articulo28" />
+        <activity android:name="com.example.mechonapp.CalculadoraNotaEximicion" />
+        <activity android:name="com.example.mechonapp.CalculadoraNotaExamen" />
+        <activity android:name="com.example.mechonapp.Profesores" />
+        <activity android:name="com.example.mechonapp.CalculadoraNota" />
+        <activity android:name="com.example.mechonapp.Perfil" />
+        <activity android:name="com.example.mechonapp.Sanciones" />
+        <activity android:name="com.example.mechonapp.MenuPpal" />
+        <activity android:name="com.example.mechonapp.RecuperarPassActivity" />
+        <activity android:name="com.example.mechonapp.RegistroActivity" />
+        <activity android:name="com.example.mechonapp.LoginActivity" />
+        <activity android:name="com.example.mechonapp.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

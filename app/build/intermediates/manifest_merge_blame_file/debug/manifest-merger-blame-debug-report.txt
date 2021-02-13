@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mechonapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:7:5-40:19
+14        android:allowBackup="true"
+14-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/AppTheme"
+21-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:13:9-40
+22        android:usesCleartextTraffic="true" >
+22-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:14:9-44
+23        <activity android:name="com.example.mechonapp.VerEventos" />
+23-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:15:9-57
+23-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:15:19-45
+24        <activity android:name="com.example.mechonapp.AgregarEvento" />
+24-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:16:9-51
+24-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:16:19-48
+25        <activity android:name="com.example.mechonapp.TribunalMerito" />
+25-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:17:9-52
+25-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:17:19-49
+26        <activity android:name="com.example.mechonapp.Articulo33" />
+26-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:18:9-48
+26-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:18:19-45
+27        <activity android:name="com.example.mechonapp.Planificador" />
+27-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:19:9-50
+27-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:19:19-47
+28        <activity android:name="com.example.mechonapp.HorarioAgregarAsignatura" />
+28-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:20:9-62
+28-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:20:19-59
+29        <activity android:name="com.example.mechonapp.Horario" />
+29-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:21:9-45
+29-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:21:19-42
+30        <activity android:name="com.example.mechonapp.Articulo28" />
+30-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:22:9-48
+30-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:22:19-45
+31        <activity android:name="com.example.mechonapp.CalculadoraNotaEximicion" />
+31-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:23:9-62
+31-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:23:19-59
+32        <activity android:name="com.example.mechonapp.CalculadoraNotaExamen" />
+32-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:24:9-59
+32-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:24:19-56
+33        <activity android:name="com.example.mechonapp.Profesores" />
+33-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:25:9-48
+33-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:25:19-45
+34        <activity android:name="com.example.mechonapp.CalculadoraNota" />
+34-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:26:9-53
+34-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:26:19-50
+35        <activity android:name="com.example.mechonapp.Perfil" />
+35-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:27:9-44
+35-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:27:19-41
+36        <activity android:name="com.example.mechonapp.Sanciones" />
+36-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:28:9-47
+36-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:28:19-44
+37        <activity android:name="com.example.mechonapp.MenuPpal" />
+37-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:29:9-46
+37-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:29:19-43
+38        <activity android:name="com.example.mechonapp.RecuperarPassActivity" />
+38-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:30:9-59
+38-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:30:19-56
+39        <activity android:name="com.example.mechonapp.RegistroActivity" />
+39-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:31:9-54
+39-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:31:19-51
+40        <activity android:name="com.example.mechonapp.LoginActivity" />
+40-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:32:9-51
+40-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:32:19-48
+41        <activity android:name="com.example.mechonapp.MainActivity" >
+41-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:33:9-39:20
+41-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:33:19-47
+42            <intent-filter>
+42-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:34:13-38:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:35:17-69
+43-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:35:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:37:17-77
+45-->C:\Users\HP\AndroidStudioProjects\MechonApp\app\src\main\AndroidManifest.xml:37:27-74
+46            </intent-filter>
+47        </activity>
+48    </application>
+49
+50</manifest>

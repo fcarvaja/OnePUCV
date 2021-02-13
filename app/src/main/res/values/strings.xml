@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">OnePucv</string>
+
+    <string name="txt_btn_login">Login</string>
+    <string name="txt_btn_registro">Registro</string>
+    <string name="txt_view_institucion">Pontificia Universidad Católica de Valparaíso</string>
+    <string name="txt_view_año">2019</string>
+
+    <string name="txt_usuario">usuario</string>
+    <string name="txt_password">contraseña</string>
+    <string name="txt_descUsuario">Sobre mi:</string>
+    <string name="txt_fNacimiento">Fecha de Nacimiento (dd/mm/aaaa)</string>
+    <string name="txt_check_recordar">Recordarme</string>
+    <string name="txt_btn_ingresar">Ingresar</string>
+    <string name="txt_link_recuperar">Recuperar contraseña</string>
+    <string name="btn_Guardar">Guardar Cambios</string>
+
+    <string name="txt_view_datos_personales">Datos Personales:</string>
+    <string name="txt_view_datos_cuenta">Datos Cuenta:</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="txt_rut">RUT</string>
+    <string name="txt_mail">e-mail</string>
+    <string name="txt_sexo">Sexo:</string>
+    <string name="txt_opcF">Femenino</string>
+    <string name="txt_opcM">Masculino</string>
+    <string name="txt_opcO">Otro</string>
+    <string name="txt_btn_Registrar">Registrar</string>
+
+
+    <string name="imageview_Description">ImageView</string>
+
+    <string name="imagebutton_Description">ImageButton</string>
+    <string name="txt_planificador">Planificador</string>
+    <string name="txt_perfil">Perfil</string>
+    <string name="txt_horario">Horario</string>
+    <string name="txt_sanciones">Sanciones</string>
+    <string name="txt_profesores">Profesores</string>
+    <string name="txt_calculadora">Calculadora de Nota</string>
+    <string name="txt_material">Material de Estudio</string>
+
+
+    <string name="txt_articulo28">Artículo 28</string>
+    <string name="txt_articulo33">Artículo 33</string>
+    <string name="txt_tribunal_merito">Tribunal de Mérito</string>
+    <string name="btn_Informacion">Información</string>
+    <string name="btn_Documento_Tipo">Documento Tipo</string>
+    <string name="txt_nomA28">Articulo 28 - Insuficiente Avance Curricular (Déficit de créditos):</string>
+    <string name="txt_descA28">Ocurre cuando no se cumple con el minimo acumulado de creditos aprobados por semestres cursados de acuerdo al plan de estudios. Para solicitar eximicion de la sancion, debes imprimir el formulario de solicitud de eximicion del articulo 28, completarlo y entregarlo, junto a una planificacion de tus proximos 4 semestres, en la secretaria de docencia.</string>
+    <string name="txt_nomA33">Articulo 33 - Reprobación Reiterada:</string>
+    <string name="txt_descA33">Se produce cuando un alumno reprueba por segunda vez una misma asignatura. Si es primera vez que recibes esta sancion, debes llenar el formulario de invoco de tercera oportunidad y entregarlo en la secretaria de docencia. De lo contrario, debes solicitar la tercera oportunidad directamente en la Secretaria de docencia (Unidad Academica), presentando el formulario correspondiente junto a una carta exponiendo las razones de la reprobacion reiterada y papeles pertinentes que justifiquen lo dicho en la carta. La unidad academica tiene un plazo definido e informado para responder a la solicitud. En caso de que la solicitud sea rechazada por la unidad academica, dicha solicitud sera derivada por la misma unidad al Decanato. Si este ultimo tambien la rechaza, pasa directamente al TRIBUNAL DE MERITO.</string>
+    <string name="txt_nomTM">Tribunal de Mérito:</string>
+    <string name="txt_descTM">En caso de que las solicitudes de eximicion  de Art. 33 y/o 28 sean rechazadas por las distintas instancias correspondientes, puedes acudir al Tribunal de Merito, para lo cual debes presentar una carta solicitud(Bien detallada),en la que se expongan los meritos y consideraciones que estimes pertinentes para la revision de tu caso, documentacion que avale las razones expuestas y que consideres relevantes para el caso y el Formulario de Tribunal de Mérito.</string>
+
+    <string name="txt_QueCalcular">¿Qué Deseas Calcular?:</string>
+    <string name="btn_Ir">Ir</string>
+
+    <string name="txt_NP">Nota Presentacion:</string>
+    <string name="txt_pond">Ponderacion:</string>
+    <string name="btn_calcularNota">Calcular Nota</string>
+
+    //Horario
+
+    <string name="txt_tablaHorario">Hora/Dia</string>
+    //Dias
+    <string name="txt_diaLunes">Lunes</string>
+    <string name="txt_diaMartes">Martes</string>
+    <string name="txt_diaMiercoles">Miercoles</string>
+    <string name="txt_diaJueves">Jueves</string>
+    <string name="txt_diaViernes">Viernes</string>
+    //Claves
+    <string name="txt_clave1_2">08:15 – 09:45</string>
+    <string name="txt_clave3_4">10:05 – 11:35</string>
+    <string name="txt_clave5_6">11:45 – 13:15</string>
+    <string name="txt_clave7_8">14:00 – 15:30</string>
+    <string name="txt_clave9_10">15:40 – 17:10</string>
+    <string name="txt_clave11_12">17:20 – 18:50</string>
+    <string name="txt_clave13_14">19:00 – 20:30</string>
+
+    //Botones
+    <string name="btn_agregarAsignatura">Agregar Asignatura</string>
+    <string name="btn_vaciarHorario">Vaciar Horario</string>
+
+    //AgregarAsignatura
+
+    <string name="txt_sigla">Sigla</string>
+    <string name="txt_nombreAsignatura">Nombre Asignatura</string>
+    <string name="txt_dia">Dia:</string>
+    <string name="txt_clave">Clave:</string>
+
+    <string name="btn_agendar">Agendar Evento</string>
+    <string name="btn_verEventos">Ver Eventos</string>
+    <string name="txt_hacer">¿Qué deseas hacer?</string>
+    <string name="txt_tituloEvento">Nombre Evento</string>
+    <string name="txt_fechaEvento">Fecha</string>
+    <string name="txt_descripcionEvento">Descripción</string>
+</resources>
